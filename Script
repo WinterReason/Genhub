@@ -5211,7 +5211,7 @@ spawn(function()
 end)
 
 
-local Win = Ui:Window('DemonKD Hub')
+local Win = Ui:Window('Gen Hub')
 local tab1 = Win:CraftTab('Main')
 local tab2 = Win:CraftTab('Settings')
 local page1 = tab1:CraftPage('Main',1)
@@ -5220,7 +5220,7 @@ local page3 = tab1:CraftPage('Function Notifcation',2)
 local page4 = tab2:CraftPage('Setting',1)
 
 page1:Line()
-local Label1 = page1:Label('Welcome to DemonKD')
+local Label1 = page1:Label('Welcome to GENHUB')
 page1:Seperator('Auto Farm')
 
 
